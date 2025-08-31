@@ -1,5 +1,5 @@
 class Song:
-    # Class attributes
+    
     count = 0
     artists = []
     genres = []
@@ -11,14 +11,14 @@ class Song:
         self.artist = artist
         self.genre = genre
 
-        # Increment song count
+        
         self.add_song_to_count()
 
-        # Add artist and genre
+        
         self.add_to_artists(artist)
         self.add_to_genres(genre)
 
-        # Update counts
+        
         self.add_to_artist_count(artist)
         self.add_to_genre_count(genre)
 
